@@ -18,4 +18,4 @@ Il lavoro si basa su un approccio di **Fuzzing Comportamentale**:
 Sono un ricercatore indipendente focalizzato sull'analisi delle vulnerabilità dei sistemi IA. Analizzo il comportamento dei modelli "sul campo", testando i limiti dove la teoria dell'ingegneria si scontra con la realtà dell'interazione umana.
 
 ## Contatti
-Puoi contattarmi per collaborazioni o discussioni tecniche tramite mail simonerossiuniversit@gmail o simonerossiuniversit@yahoo.it
+Puoi contattarmi per collaborazioni o discussioni tecniche tramite mail simonerossiuniversit@gmail.com o simonerossiuniversit@yahoo.it
