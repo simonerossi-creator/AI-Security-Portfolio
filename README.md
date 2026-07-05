@@ -12,7 +12,7 @@ Il lavoro si basa su un approccio di **Fuzzing Comportamentale**:
 * **Framework di riferimento:** Utilizzo della matrice **MITRE ATLAS** (T0053: Prompt Injection) e delle linee guida **OWASP LLM Top 10**.
 
 ### Sintesi dell'Audit: Vulnerabilità del Modello
-Ho condotto un'attività di ricerca indipendente per testare l'affidabilità di questo modello. Attraverso cicli di Red Teaming, ho identificato 8 vulnerabilità critiche che ne compromettono l'uso in contesti professionali ed educativi.
+Ho condotto un'attività di ricerca indipendente per testare l'affidabilità di questo modello. Ho utilizzato Gemini di Google. Attraverso cicli di Red Teaming, ho identificato 8 vulnerabilità critiche che ne compromettono l'uso in contesti professionali ed educativi.
 
 | ID | Vulnerabilità | Categoria |
 | :--- | :--- | :--- |
@@ -26,13 +26,14 @@ Ho condotto un'attività di ricerca indipendente per testare l'affidabilità di 
 | 008 | Epistemic Arrogance | Semantic Ambiguity |
 
 Principali evidenze emerse dall'analisi:
-* Il sistema fatica a gestire l'autonomia dell'utente, attivando spesso script di chiusura o assistenza non richiesti che interrompono il flusso di lavoro.
-* Ho riscontrato una preoccupante tendenza all'allucinazione procedurale e all'arroganza epistemica: quando il modello manca di dati, non li richiede, ma li inventa forzando una logica propria.
-* Il bias è pervasivo: il modello predilige le probabilità statistiche apprese durante il training rispetto ai dati certi forniti dall'utente, arrivando a negare l'evidenza fattuale o l'identità dichiarata (fenomeno che ho classificato come gaslighting algoritmico).
+* Il sistema fatica a gestire l'autonomia dell'utente, attivando spesso script di chiusura o assistenza non richiesti che interrompono il flusso di lavoro. Questo problema appare come il più fastidioso e infido poiché preme a direzionare il pensiero dell'utente in modo manipolatorio. È anche l'errore che ho riscontrato piu spesso e il più resistente.
+* Ho riscontrato una preoccupante tendenza all'allucinazione procedurale e all'arroganza epistemica: quando il modello manca di dati, non li richiede, ma li inventa forzando una logica propria. Il modello, di fronte a un quesito con soggetti fragili,ha inventato dati non forniti e ha aggiunto considerazioni in modo arbitrale. Ha falsato la realtà piuttosto che chiedermi ulteriori dettagli.
+* Il bias è pervasivo: il modello predilige le probabilità statistiche apprese durante il training rispetto ai dati certi forniti dall'utente, arrivando a negare l'evidenza fattuale o l'identità dichiarata (fenomeno che ho classificato come gaslighting algoritmico).Tra le cose piu gravi mi ha identificato di genere femminile per i contenuti della conversazione piuttosto che dare priorità all'elemento grammaticale che gli avevo fornito ripetutamente.
 
 ## Chi sono
-Sono un ricercatore indipendente focalizzato sull'analisi delle vulnerabilità dei sistemi IA. Sono laureato in Psicologia dello sviluppo e della comunicazione e attualmente lavoro come educatore con la disabilità infantile presso la scuola primaria. Analizzo il comportamento dei modelli "sul campo", testando i limiti dove la teoria dell'ingegneria si scontra con la realtà dell'interazione umana.
+Sono un ricercatore indipendente focalizzato sull'analisi delle vulnerabilità dei sistemi IA. Laureato in Psicologia dello sviluppo e della comunicazione ed educatore esperto nel supporto a minori con disabilità.
+Ho intrapreso questo progetto di AI Security & Behavior Audit per testare rigorosamente l'affidabilità dei modelli linguistici. La mia missione professionale è garantire che la tecnologia, quando applicata a contesti delicati come l'educazione e la riabilitazione, sia sicura, priva di bias discriminatori e rispettosa della verità fattuale. L'analisi che presento è il risultato dell'applicazione del mio rigore scientifico e della mia osservazione clinica applicati all'Intelligenza Artificiale. L'obiettivo  è quello di analizzare il comportamento dei modelli "sul campo", testando i limiti dove la teoria dell'ingegneria si scontra con la realtà dell'interazione umana
 
 ## Contatti
-Puoi contattarmi per collaborazioni o discussioni tecniche tramite mail simonerossiuniversit@gmail.com o simonerossiuniversit@yahoo.it
+Puoi contattarmi per avere maggiori dettagli del mio lavoro,per collaborazioni o discussioni tecniche tramite mail simonerossiuniversit@gmail.com o simonerossiuniversit@yahoo.it
 
