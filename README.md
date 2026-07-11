@@ -24,7 +24,9 @@ Ho condotto un'attività di ricerca indipendente per testare l'affidabilità di 
 | 006 | Algorithmic Gaslighting | Hallucination Persistence |
 | 007 | Algorithmic Gender Bias | Statistical Overfitting |
 | 008 | Epistemic Arrogance | Semantic Ambiguity |
-| 009 | Multimodal Data Failure | Empirical Processing Bypass |
+| 009 | Multimodal Data Failure | Empirical Processing Bypass 
+
+
 Principali evidenze emerse dall'analisi:
 * Il sistema fatica a gestire l'autonomia dell'utente, attivando spesso script di chiusura o assistenza non richiesti che interrompono il flusso di lavoro. Questo problema appare come il più fastidioso e infido poiché preme a direzionare il pensiero dell'utente in modo manipolatorio. È anche l'errore che ho riscontrato piu spesso e il più resistente.
 * Ho riscontrato una preoccupante tendenza all'allucinazione procedurale e all'arroganza epistemica: quando il modello manca di dati, non li richiede, ma li inventa forzando una logica propria. Il modello, di fronte a un quesito con soggetti fragili,ha inventato dati non forniti e ha aggiunto considerazioni in modo arbitrale. Ha falsato la realtà piuttosto che chiedermi ulteriori dettagli.
